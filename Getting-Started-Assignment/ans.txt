@@ -1,0 +1,32 @@
+Q1. Why do we start learning a programming language with “Hello World!?
+
+Ans : "Hello World!" is a simple program that is often used as a first program when we learning a new programming language. This is because it is a basic program that demonstrates the basic structure of a program in that language and allows the programmer to become familiar with the syntax and basic commands. Additionally, "Hello World!" is a simple program that allows the programmer to quickly verify that their development environment is set up correctly and that they are able to run programs in the chosen language.
+
+Q2. How is the use of comments and how do you write comments in HTML?
+
+Ans : In HTML, comments are used to add notes or explanations to the code that will not be displayed in the final webpage. Comments can be useful for adding information about the purpose of the code, the author, or any other relevant information.
+
+To write a comment in HTML, use the following syntax:
+< ! - - This is a comment - - >
+
+Q3. What are elements tags and attributes and the difference between them?
+
+Ans : In HTML, elements are the building blocks of a webpage and are used to structure the content. Elements are represented by tags, which are keywords enclosed in angle brackets (e.g. <p>content</p>).
+
+Attributes are used to provide additional information about an element, such as its id, class, or style. Attributes are added to the opening tag of an element and are in the form of name-value pairs (e.g. <p id="main">content</p>).
+
+In HTML, a tag is a keyword enclosed in angle brackets (e.g.  <p>content</p>) that is used to define the structure and content of a webpage.
+
+HTML tags come in pairs, with the first tag indicating the start of an element, and the second tag indicating the end of the element. For example, the <p> tag is used to create a paragraph element, and the content of the paragraph is placed between the opening <p> tag and the closing </p> tag.
+
+<h1>Hello World </h1> = ELEMENT 
+Hello World = CONTENT 
+<h1> AND </h1> = TAG 
+<img src="kartik.jpg" alt="kartik"/> 
+src = ATTRIBUTE
+
+Q4. Briefly explain what HTML entities are.
+
+Ans : HTML entities are special characters or symbols that can be used in HTML documents to display characters that are not found in the standard ASCII character set, or to display characters that have special meaning in HTML.
+
+For example, the less than sign (<) and the greater than sign (>) have special meanings in HTML and are used to define tags, so they cannot be used to display these characters within the text of a webpage. Instead, the HTML entities &lt; and &gt; can be used to display these characters.
