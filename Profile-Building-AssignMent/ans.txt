@@ -1,0 +1,34 @@
+Q1.What is the difference between UI and UX?Explain your own words.
+
+Ans: 
+UI:- UI (User Interface) refers to the visual elements, controls, and layouts that users interact with when using a product or service. It encompasses everything users see and interact with on a screen, including buttons, icons, menus, text, colors, and overall design aesthetics. 
+
+UX:- UX (User Experience), on the other hand, deals with the overall experience a user has while interacting with a product or service. It encompasses all aspects of the user's interaction, including their emotions, perceptions, and behaviors before, during, and after using the product.
+
+
+Q2.Who is Front-End Developer?Explain the roles and responsibilities in your own words.
+
+Ans:   A Front-End Developer is a type of software developer who specializes in creating the user interface and experience of a website or web application. They are responsible for bringing the design and functionality of a website to life in a way that is visually appealing, intuitive, and responsive.
+
+Here we discuss two roles and responsibilities of Front-End Developer: 
+
+1.Implementing Designs :- Front-End Developers work closely with designers to translate their visual concepts into code. They use HTML, CSS, and JavaScript to build the structure, layout, and styling of web pages based on the design specifications. 
+
+2.Creating Responsive Layouts:- They ensure that websites are optimized for various devices and screen sizes by implementing responsive design techniques. This involves using media queries and flexible layouts to adapt the content and layout dynamically based on the device being used.
+
+
+Q3.Who is a Back-End Developer?Explain the roles and responsibilities in your own words.
+
+Ans :  A Back-End Developer is a type of software developer who specializes in building and maintaining the server-side logic and infrastructure of websites, web applications, and other software systems. They focus on the behind-the-scenes functionality that powers the front-end user experience.
+
+Here we discuss two roles and responsibilities of Back-End Developer: 
+
+
+1.Developing Server-Side Logic:-  Back-End Developers are responsible for writing code that runs on the server and handles requests from the client-side (front-end) of the application. This includes implementing business logic, data processing algorithms, and database interactions.
+
+2.Building APIs:- They design and implement Application Programming Interfaces (APIs) that allow different components of the application to communicate with each other. APIs define the methods and protocols for accessing and manipulating data and functionality provided by the server.
+
+Q.4 Create Your Own GitHub and LinkedIn accounts.Share the screanshot of both of your accounts and share profile links of GitHub and LinkedIn in the solution
+
+Ans: LinkedIn profile link => "linkedin.com/in/kartik-paul-17b9b4248"
+     GitHub profile link => "https://github.com/KARTIKPAUL"

@@ -1,0 +1,8 @@
+Q1. What is Emmet?
+Ans : Emmet is a very advantage thing in HTML and CSS.Emmet is a plugin for text editors that allows we to write HTML and CSS faster by using abbreviations that expand into full code.It can be save a lot  time when writing code because we can type a few characters  and then expand them into a long block of code with a single keywords or abbreviations.
+
+Q2. What are the advantages of using Emmet?
+Ans : There are various types of advantages of using Emmet’s. There are -
+            1.It saves a lot of time for a developer.
+            2.It is an efficient manner.
+            3.It is very easy to use. etc.

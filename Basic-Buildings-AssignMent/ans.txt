@@ -1,0 +1,17 @@
+Q1.What is HTML?
+
+Ans : HTML (Hypertext Markup Language) is a markup language used to create the structure and layout of web pages. It consists of a series of elements, each represented by a tag, that define the different parts of a web page, such as headings, paragraphs, images, and links. These elements can be styled and positioned using CSS (Cascading Style Sheets) and JavaScript can be used to add interactivity and dynamic behavior to a website.
+
+Q2. What is CSS?
+
+Ans : CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in a markup language, such as HTML. It is used to control the layout, colors, fonts, and other visual aspects of a web page, allowing developers to separate the presentation of a document from its structure. CSS allows developers to apply styles consistently across multiple web pages, making it easier to maintain a website's design. It can be written in separate files or embedded within the HTML document itself.
+
+Q3. Why did Javacript come into the picture?
+
+Ans : JavaScript was first introduced in the late 1990s as a way to add interactive and dynamic behavior to web pages. It allows developers to create things like form validation, image sliders, and interactive maps, which were not possible using only HTML and CSS. JavaScript enables web pages to update and change content without requiring a page refresh, which makes for a more responsive and engaging user experience. JavaScript can also be used on the server-side, with the emergence of technologies such as Node.js, it has now become a full-stack development language, making it more powerful and versatile.
+
+Q4.History of Javascript and Ecmascript?Explain your own words.
+
+Ans : JavaScript was first created in the mid-1990s(1995) by Brendan Eich while he was working at Netscape Communications Corporation. Originally, it was called Mocha, then changed to LiveScript, before finally being named JavaScript. JavaScript quickly gained popularity as a way to add interactivity to web pages, and it became a standard part of web browsers.
+
+ECMAScript is the official name for the standard that JavaScript is based on. It was first introduced in 1997 by Ecma International, a Swiss-based standards organization, with the goal of standardizing the language and making it more consistent across different implementations.
