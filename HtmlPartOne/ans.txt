@@ -1,0 +1,47 @@
+Q1.What are inline and block elements in HTML and the difference between them ? Name of few inline and block elements?
+
+Ans : Block Elements : A block-level element always begins on a new line, and browsers add a margin (a space) before and after the element by default . A block-level element always occupies the entire available width.
+Example : <p> and <div> are mostly used block elements.
+
+Inline Elements : A line break is not used to begin an inline element.An inline element only uses the space that is required.An inline element cannot contain a block-level element.
+Example : <a>,<b>,<br> etc.
+
+Q2. How work with images in HTML and explain in details <img/> tag important attributes
+
+Ans : To include an image in an HTML page, we can use the <img> element. The
+<img> element is a self-closing tag, which means that it doesn't have a
+closing tag.
+
+Attributes : 
+            src,
+       	    alt,
+            height,
+            Width
+
+Q3. How to create lists in HTML?
+
+Ans : There are 3 types of list. Those are unordered  lists, ordered lists and description lists.
+
+1 . Unordered lists : An unordered list in HTML is a list of items that are displayed in no specific order. Unordered lists are created using the <ul> element in HTML, and each item in the list is represented by an <li> element.
+
+2 . Ordered lists : An ordered list in HTML is a list of items that are displayed in a specific
+numerical or alphabetical order. Ordered lists are created using the <ol>
+element in HTML, and each item in the list is represented by an <li> element.
+
+3 . Description lists : A description list in HTML is a way to display a list of terms and their
+corresponding descriptions. It is similar to a dictionary, where each term is
+followed by its definition. Description lists are created using the <dl>
+element, with each term represented by an <dt> element and each
+description represented by an <dd> element.
+
+Q4.How to inter link web pages and navigate people in other websites?
+Ans : Links (also known as hyperlinks) are used in websites to allow users to
+navigate from one web page to another. When a user clicks on a link, they
+are taken to the destination page specified by the link.
+
+A list is a group of related items that are displayed in a specific order.
+
+Lists are useful in websites for several reasons:
+
+Lists can help to organize content in a clear and logical way, making it
+easier for users to understand and navigate.
