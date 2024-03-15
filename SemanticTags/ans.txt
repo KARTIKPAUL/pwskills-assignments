@@ -1,0 +1,58 @@
+Q.1 What are the new things introduced in HML5!
+
+Ans :- HTML5 : HTML5 is the latest version of HTML and includes new features that allow web developers to create more interactive and engaging content for the web.
+
+    Advantages of HTML5 :
+    1. There are many attributes present in HTML5 that were not present in HTML.
+    E.g., data-, offline, anabort, onblur  etc.
+
+    2. It provides support for audio, video, and other multimedia content by
+    using tags like <audio>,<video>,<canvas>, etc.
+
+    3. There are many page layout options available in HTML5. In HTML, you can
+    only find page layout tags like div, span, etc. But in HTML5, there are many
+    more tag options available like header, footer, article, section, etc.
+
+    4. HTML5 supports Search Engine Optimisation(SEO). Search engine
+    optimization helps the websites to know about the popularity of their
+    content and also provides insights on how to improve the content to
+    increase the traffic on the websites.
+
+    Disadvantages of HTML5 :
+    1. Can only be run on modern browsers. Not compatible with older versions
+    of various browsers, e.g., Google Chrome version less than 60, Mozilla
+    version 2 and 3.6, etc.
+
+    2. There is no standard video format available. For example, H.264 video
+    format is supported by all web browsers but not by Firefox; similarly, the
+    Ogg Theory video format is supported by all web browsers but not by
+    Explorer.
+
+    3. The multi-platform support provided by HTML5 sometimes leads to more
+    complex code. Also, it becomes necessary to run all web applications in
+    all formats to check the credibility of the code.
+
+    4. HTML5 is still in the development phase; therefore, it might appear that 
+    a few features that worked before are not working now. Thus developers
+    need to stay updated while using HTML5.
+
+Q.2 What are semantic tags? Give a couple of examples ?
+
+Ans :- Semantic Tags : In HTML, semantic tags are tags that describe the meaning or purpose of the content they contain. Semantic tags are used to add meaning to the
+content of a webpage, making it easier for search engines and other
+systems to understand the content of a webpage.
+
+Examples : <header></header>,<main></main>,<footer></footer>,<section></section>,<form></form> etc.
+
+Q.3 List some uses of semantic tags.
+
+Ans :- There are many uses in semantic tags : There are 
+
+    1. Improved readability and maintainability,
+    2. Enhanced accessibility .
+    3. Better SEO.
+    5. Simplified styling
+    6.Website Designing.
+    7.Making Web applications.
+    8.CreateE-commerce platforms.
+    9.Write Blogs and content management systems.
