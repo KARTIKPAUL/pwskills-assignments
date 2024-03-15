@@ -1,0 +1,60 @@
+Q1. Explain the table and its properties?
+
+Ans : Web developers can organize information like text, images, links, and other
+data into rows and columns of cells using HTML tables.
+    ● The <table> tag is used to generate HTML tables.
+    ●The<th> used for table heading.
+    ● Table rows are created using the <tr> tag, while data cells are created using
+    the <td> tag. Regular elements beneath <td> are by default left aligned.
+
+Properties of tables :
+    ● Table Heading
+    ● Cell padding and spacing
+    ● Colspan and rowspan
+    ● Table Background
+    ● Table height and width
+    ● Table caption
+    ● Table Header, Body and footer
+
+Q2.Explain all Media elements and how they work?
+
+Ans : There are various types of media elements in there.
+    1. Images : For images media we used an “img” tag which format is <img/>.this is a self closing tag and this is an inline element.
+    2. Audio : For audio media we used an “audio” tag which format is <audio><audio/>.This is an inline element.
+    3. Video : For video media we used a “video” tag which format is <video><video/>.This is also an inline element.
+
+Q3. What is the Get and Post in from?
+
+Ans : The two most common HTTP methods are : GET and POST.
+
+ 1.Get Method : In Get method we know : 
+            ●GET is used to request data from a specified resource.
+            ● After submitting the form, the GET method displays form values in the address
+            bar of the new browser tab.
+            ●It is only allowed to be roughly 3000 characters long. Only non-secure data,
+            not sensitive data, can be used with it.
+Syntax:
+    <form method="get">
+
+2. Post Method : In Post method we know : 
+
+        ●POST is used to send data to a server to create or update a resource.
+        ●Unlike the GET method, the post method prevents form values from appearing
+        in the address bar of the new browser tab after the form has been submitted.
+        ● It adds form information to the body.
+Syntax:
+    <form method="post">
+
+Q.4  List all the input types we have in forms.
+
+Ans : There are many types of input types.Some are : 
+        ●<input type = "text">
+        ●<input type = "email">
+        ●<input type = "password" >
+        ●<input type = "date">
+        ●<input type = "radio">
+        ●<input type = "checkbox">
+        ●<input type = "submit">
+        ●<input type = "number">
+etc.	 
+
