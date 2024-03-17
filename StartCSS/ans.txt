@@ -1,0 +1,20 @@
+Q.1 What is CSS and why use it?
+
+Ans : CSS stands for Cascading Style Sheets.
+It's basically used to create good-looking websites by describing how the HTML
+elements are displayed on the screen. It also controls the layout of the website.
+
+Q.2 What are the different ways to bring CSS into an HTML file?
+Ans : There are a total 3 ways to bring CSS into an HTML file.
+      There are :
+       1.Inline CSS 
+       2.Internal CSS
+       3.External CSS
+
+Q.3 What do you mean by specificity in CSS?
+
+Ans : CSS specificity is an important topic to understand if we want to get better at CSS. 
+      ●We can add new looks to our old HTML documents.
+      ● We can completely change the look of our website with only a few changes in
+        CSS code.
+
