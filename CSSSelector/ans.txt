@@ -1,0 +1,28 @@
+Q1.Why CSS selectors are used in HTML?
+
+Ans : CSS selectors are used for selecting the HTML elements that we want to
+style, and they are a fundamental part of working with CSS. In theory,
+selectors are patterns used to select the elements to which a set of styles will
+be applied. CSS selectors can be used to select elements based on their type,
+class, ID, attributes, or dynamic state or position.
+
+Q2.What are the different types of Selectors in CSS?
+
+Ans :  We can divide CSS selectors into many categories:
+    1. Simple selectors.
+    2. Combinators.
+    3. Attribute selectors.
+    4. Pseudo-class selectors.
+    5. Pseudo-elements selectors.
+    6. Descendent selector.
+    7. Child selector.
+    8. Adjacent sibling selector.
+    9. General sibling selector.
+
+Q3.How do you include external fonts and apply them?
+
+Ans : Adding Google Fonts to a Web Project
+    Step 1: Browse the Google Fonts library
+    Step 2: Select the fonts and customize the styles.
+    Step 3: Generate the code for adding the fonts to your project.
+    Step 4: Use the fonts in your CSS.
