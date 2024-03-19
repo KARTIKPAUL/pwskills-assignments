@@ -1,0 +1,76 @@
+Q1.What is padding and margin and when do you use them?
+
+Ans: Padding is basically:-
+    ● Padding properties are used to generate space around an element's content,
+    inside of any defined borders.
+    ● With CSS, we have full control over the padding.There are properties for
+    setting the padding for each side of an element (top, right, bottom, and left).
+    Similar to margin, CSS has properties for specifying the padding for each side of
+    an element:
+    ● padding-top
+    ● padding-right
+    ● padding-bottom
+    ● padding-left
+    Example:-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 80px;
+
+    Margin is basically:-
+    ● When no defined borders surround an element, a space is created using the CSS
+    margin attributes.
+    ● We have complete control over the margins through CSS. Each side of an
+    element can have its margin set using attributes (top, right, bottom, and left).
+    ● CSS has properties for specifying the margin for each side of an element:
+    1. margin-top
+    2. margin-right
+    3. margin-bottom
+    4. margin-left
+    Example:-
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+Q2.What is display property and explain inline,block and inline-block?
+
+Ans : Display property
+    ● The display property specifies the display behavior (the type of rendering box) of an element.
+    ● In HTML, the default display property value is taken from the HTML specifications or
+    from the browser/user default style sheet. The default value in XML is inline,
+    including SVG elements.
+
+    INLINE Display Property :- Displays an element as an inline element (like <span>). Any height and width properties will have no effect.
+    BLOCK Display Property :- Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+    INLINE-BLOCK Display Property : -Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.
+
+    Q3.Explain min height, min width, max height, and max width in CSS?
+
+    Ans :
+    A. Min-height Property :-
+    ● In CSS, the min-height property is used to specify an element's minimum height.
+    ● The min-height attribute is utilised when the content of an element is less than the
+    specified minimum height; otherwise, it has no impact.
+    ● This property makes sure that the height property value is greater than the
+    minimum height of the element under consideration.
+
+    B.Min width Property :-
+    ● In CSS, the min-width property is used to specify an element's minimum width.
+    ● The width value must be greater than the min-width value.
+    ● Min-width preserves the set minimum width even if the content supplied within the
+    element is lower.
+
+    C.Max-height Property :-
+    ● A CSS element's maximum height can be set using the max-height property.
+    ● The content of the element will overflow if its size exceeds the maximum height
+    given; otherwise, it has no impact.
+    ● If the element's content is less, it has no impact. The max-height property has the
+    ability to override the value of the height property.
+
+    D.Max-width property
+    ● The max-width property defines the maximum width of an element.
+    ● If the content is larger than the maximum width, it will automatically change the
+    height of the element.
+    ● If the content is smaller than the maximum width, the max-width property has no
+    effect.
