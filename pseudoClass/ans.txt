@@ -1,0 +1,30 @@
+Q1.Why is it called a pseudo-class?
+
+Ans : Pseudo-classes are used to select elements based on their state, such as
+when the element is hovered over, when it has focus, or when it is the first or
+last child of its parent element.
+
+Pseudo Elements :- CSS allows developers to create special types of selectors called
+pseudo-elements, which can be used to style specific parts of an HTML element.
+
+Q2.What are gradients in CSS?
+
+Ans : CSS gradients let you display smooth transitions between two or more specified colors.
+It lets us display smooth transitions between two or more specified colors.
+CSS defines three types of gradients:
+    ● Linear Gradients.
+    ● Radial Gradients. 
+    ● Conic Gradients.
+
+Q3.What are different types of transitions in CSS?
+
+Ans : Transitions means : 
+● CSS transitions allow us to change property values smoothly, over a given duration.
+To create a transition effect, we must specify two things:
+● the CSS property we want to add an effect to the duration of the effect.
+
+There are different types of transitions.They are :
+● transitions-delay
+● transitions-duration
+● transitions-property
+● transitions-timing-function
