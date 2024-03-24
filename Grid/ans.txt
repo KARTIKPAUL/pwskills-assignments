@@ -1,0 +1,17 @@
+Q1.What is the grid?
+
+Ans : In Cascading Style Sheets, CSS grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently across browsers. Historically, there have been other methods for controlling web page layout methods, such as tables, floats, and more recently, CSS Flexible Box Layout.
+
+Q2.What is the difference between Flex and Grid?
+
+Ans : Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+Q3.How can you define rows and columns or your grid?
+
+Ans : We define rows and columns on our grid with the grid-template-rows and grid-template-columns properties.
+
+Q4.List any two properties of the grid item and grid container.
+
+Ans : GRID ITEM:-The grid-area property can be used as a shorthand property for the grid-row-start , grid-column-start , grid-row-end and the grid-column-end properties.
+
+GRID CONTAINER :-It is a shorthand property used to achieve the functionalities of three properties, i.e., grid-template-columns, grid-template-rows, and grid-areas.
