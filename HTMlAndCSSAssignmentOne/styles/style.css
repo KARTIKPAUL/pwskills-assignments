@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-image: url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+button{
+    background-color: #ff505f;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: x-large;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color:#ffffff;
+    color:#000000;
+    border: 1px solid #000000;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.navBar ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 900;
+}
+
+.navBar ul li a{
+    color:#ffc233;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar ul li a:hover{
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #000000;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 3px 3px;
+    cursor: pointer;
+}
+section{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 70px;
+    color: hsl(57, 97%, 48%);
+    font-weight:bolder;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    align-items: center;
+    justify-content:center;
+    margin-left: 100px;
+    font-size: x-large;
+    color: #a0e60a;
+    font-weight: 900;
+}
+footer div{
+    align-items: center;
+    justify-content: flex-end;
+}
