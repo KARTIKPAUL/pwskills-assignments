@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#name{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#btn{
+    padding: 7px 15px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
