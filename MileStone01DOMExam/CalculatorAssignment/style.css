@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 204, 204);
+}
+h1{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.th{
+    padding: 20px 40px;
+    background-color: green;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 5vw;
+}

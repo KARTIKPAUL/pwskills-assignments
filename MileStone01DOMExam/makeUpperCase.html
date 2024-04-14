@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make First Letter Uppper Case</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #008000;
+        color: #000000;
+    }
+    .container{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #stdName{
+        margin-top: 10vh;
+        padding:5px 10px;
+        border-radius: 5px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    #btn{
+        padding: 5px 10px;
+        background-color:#e48e51;
+        margin-top: 10vh;
+        font-size: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #btn:hover{
+        background:#000000;
+        color: #ffffff;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Make First Letter Uppper Case</h1>
+        <input type="text" id="stdName" placeholder="Enter Name">
+        <button id="btn">Name is: </button>
+    </div>
+
+    <script>
+        let stdName = document.getElementById("stdName");
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click",changeCharacter);
+
+        function changeCharacter(){
+            let names = stdName.value;
+            let Ascii = names.charCodeAt(0);
+            if(Ascii >= 97 && Ascii <= 122){
+                Ascii = Ascii - 32;
+                let ch = String.fromCharCode(Ascii);
+                btn.innerText = `Name is: ${ch + names.slice(1,names.length01)}`;
+            } else {
+                btn.innerText = `Name is: ${names}`;
+            }
+        }
+    </script>
+</body>
+</html>

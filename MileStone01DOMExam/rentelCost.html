@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Rental Cost Q.12</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: violet;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+            margin-top: 10vh;
+            color: #000000;
+            text-align: center;
+        }
+        .para{
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 2vh;
+        }
+        .mainContent{
+            margin-top: 10vh;
+        }
+        #btn{
+            margin: 5px;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: #000000;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Rental Cost Q.12</h1>
+        <div class="mainContent">
+            <p class="para">Economy Cars Rent is &nbsp; Rs. 10000 / Day</p>
+            <p class="para">MidSize Cars Rent is &nbsp; Rs. 14000 / Day</p>
+            <p class="para">Luxury Cars Rent is &nbsp; Rs. 20000 / Day</p>
+            <p class="para">He/She Book Economy Cars For 3 days So, Total Price is: <button id="btn">Click Here</button></p>
+        </div>
+    </div>
+
+    <script>
+
+        let btn = document.getElementById("btn");
+
+        let economyPrice = 10000;
+        let midSizePrice = 14000;
+        let luxuryPrice = 20000;
+
+
+        let numberOfdays = 3;
+        btn.addEventListener("click" , totalPrice);
+
+        function totalPrice(){
+            btn.innerText = 10000 * 3;
+        }
+
+    </script>
+</body>
+</html>

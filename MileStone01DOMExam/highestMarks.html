@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest Marks AssignMent</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 50px;
+        }
+        .container{
+            margin-top: 10vh;
+            text-align: center;
+            font-size: 40px;
+            gap: 5px;
+        }
+        #btn{
+            margin-top: 10vh;
+            padding: 5px 10px;
+            font-size: larger;
+            background-color: #55a109;
+            border-radius: 10px;
+            font-weight: 900;
+        }
+        #btn:hover{
+            background: #ffffff;
+            color: #000000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculate Highest marks</h1>
+    <div class="container">
+        <p id="stdOne"></p>
+        <p id="stdTwo"></p>
+        <p id="stdThree"></p>
+        <p id="stdFour"></p>
+        <p id="stdFive"></p>
+        <button id="btn">Click Here To Know Highest Marks</button>
+    </div>
+
+   
+
+    <script>
+        let stdOne = document.getElementById("stdOne");
+        let stdTwo = document.getElementById("stdTwo");
+        let stdThree = document.getElementById("stdThree");
+        let stdFour = document.getElementById("stdFour");
+        let stdFive = document.getElementById("stdFive");
+
+        let marks = [80,88,76,98,96];
+
+        stdOne.innerText = `First Student Get: ${marks[0]}`
+        stdTwo.innerText = `Second Student Get: ${marks[1]}`
+        stdThree.innerText = `Third Student Get: ${marks[2]}`
+        stdFour.innerText = `Fourth Student Get: ${marks[3]}`
+        stdFive.innerText = `Fiveth Student Get: ${marks[4]}`
+
+        const highestMarks = marks.reduce((max, current) => max > current ? max : current);
+
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click",showHighestNumber);
+
+        function showHighestNumber(){
+            btn.innerText = `Highest Marks is ${highestMarks}`
+        }
+
+        btn.addEventListener("dblclick",reButton);
+
+        function reButton(){
+            btn.innerText = "Click Here To Know Highest Marks";
+        }
+
+    </script>
+</body>
+</html>

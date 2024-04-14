@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Mixure AssignMent Q.3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            margin-top: 10vh;
+            margin-bottom: 5vh;
+            font-size: 50px;
+            color: blue;
+            font-weight: bolder;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 5vh;
+        }
+        h3{
+            font-size: 30px;
+            text-align: center;
+        }
+        .color{
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        #btn{
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color: #000000;
+            font-size: 30px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        #btn:hover{
+            color: #000000;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colour Mixure AssignMent Q.3</h1>
+    <div class="container">
+        <h3>Please Enter Your First Colour : </h3>
+        <input type="text" placeholder="Enter First Colour" id="colorOne" class="color">
+        <h3>Please Enter Your Second Colour : </h3>
+        <input type="text" placeholder="Enter Second Colour" id="colorTwo" class="color">
+        <button id="btn">New Colour is</button>
+    </div>
+
+    <script>
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click" , changeColor)
+
+        function changeColor(){
+            let firstColor = document.getElementById("colorOne").value.toUpperCase();
+            let secondColor = document.getElementById("colorTwo").value.toUpperCase();
+            if(firstColor == "RED" && secondColor == "BLUE"){
+                document.body.style.backgroundColor = "purple"
+                btn.style.backgroundColor = "purle"
+                btn.innerText = "Purple"
+            }else if(firstColor == "RED" && secondColor == "YELLOW"){
+                document.body.style.backgroundColor = "orange"
+                btn.style.backgroundColor = "orange"
+                btn.innerText = "Orange"
+            }else if(firstColor == "BLUE" && secondColor == "YELLOW"){
+                document.body.style.backgroundColor = "green"
+                btn.style.backgroundColor = "green"
+                btn.innerText = "Green"
+            }
+        }
+    </script>
+</body>
+</html>

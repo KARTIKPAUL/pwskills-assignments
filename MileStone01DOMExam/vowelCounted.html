@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel Counter</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background:#9dd44c;
+            color: rgb(43, 4, 80);
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            margin-top: 10vh;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5vh;
+        }
+        #stdName{
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        #btn{
+            padding: 5px 10px;
+            font-size: larger;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vowel Counter App</h1>
+        <input type="text" id="stdName" placeholder="Enter Name">
+        <button id="btn">Number Of Vowel is</button>
+    </div>
+
+    <script>
+        let stdName = document.getElementById("stdName");
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click" , countVowel);
+
+        function countVowel(){
+            let names = stdName.value.toUpperCase();
+            let count = 0;
+            for(let i = 0 ; i < names.length ; i++){
+                let ch = names[i];
+                if(ch === 'A' || ch === 'E' || ch === 'I' || ch === 'O' || ch === 'U') count++;
+            }
+            btn.innerText = `Number Of Vowel is: ${count}`;
+        }
+    </script>
+</body>
+</html>

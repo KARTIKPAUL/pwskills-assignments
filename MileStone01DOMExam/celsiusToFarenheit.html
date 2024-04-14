@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius To Farenheit Converter Q.11</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #5a5ae7;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+            margin-top: 10vh;
+            color: #000000;
+            text-align: center;
+        }
+        .para{
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        #para1{
+            margin-top: 10vh;
+        }
+        #para2{
+            margin-top: 5vh;
+        }
+        #btn{
+            margin: 5px;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: #000000;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Celsius To Farenheit Converter Q.11</h1>
+        <p id="para1" class="para">Celsius Temperature is : <span id="paraCelsius">20</span></p>
+        <p id="para2" class="para">Farenheit Temperature is : <button id="btn">Click Here</button></p>
+    </div>
+
+
+    <script>
+        let celsiusTemperature = document.getElementById("paraCelsius");
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click" , farenheitTemperature);
+
+        function farenheitTemperature(){
+            let val = Number(celsiusTemperature.innerText);
+            let fT = (val * 9/5) + 32;
+            btn.innerText = fT;
+        }
+    </script>
+</body>
+</html>
