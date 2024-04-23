@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error handling</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:#daa520;
+        }
+        h1{
+            text-align: center;
+            color: #008000;
+            font-weight: bolder;
+            font-size: 50px;
+            margin-top: 10vh;
+        }
+        #btn{
+            display: flex;
+            justify-content: center;
+            padding: 5px 20px;
+            text-align: center;
+            font-size: 25px;
+            background-color: #000000;
+            z-index: 20;
+            cursor: pointer;
+            color: #ffffff;
+            margin: auto;
+            margin-top: 10vh;
+            border-radius: 5px;
+            font-weight: 900;
+        }
+        #btn:hover{
+            background-color:#ffffff;
+            color: #000000;
+        }
+        #division{
+            display: flex;
+            justify-content: center;
+            margin-top:10vh;
+            font-size: 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Error Handling</h1>
+    <button id="btn">Click Here To See Error</button>
+    <div id="division"></div>
+
+    <script>
+        let btn = document.getElementById('btn');
+        let division = document.getElementById("division");
+
+        async function errorHandling(){
+            try {
+            let data = await fetch("https://onplaceholder.typicode.com/posts/123456789");let mainData = await data.json();
+            btn.addEventListener("click",() =>{
+                division.innerText = mainData
+            })
+          } catch (error) {
+            btn.addEventListener("click",() =>{
+                division.innerText = "Fething Api Error , Not Fetching Api Properly";
+            })
+        }
+    }
+    errorHandling();
+    </script>
+</body>
+</html>
