@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asterik Prints</title>
+    <title>Calculate Discount Price</title>
     <style>
+
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #faebd7;
+            background-color:#e7c163;
         }
         .container{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 5%;
+            gap: 10px;
         }
         .container h1{
-            font-size: 40px;
             color: #0000ff;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        p{
+            font-size: xx-large;
+            color: #008000;
+        }
+        span{
             font-weight: 900;
         }
         #btn{
-            margin-top: 3%;
             background-color: #000000;
             color: #ffffff;
             font-weight: 700;
@@ -37,34 +44,30 @@
             background-color:#7fffd4;
             color: #000000;
         }
-        #para{
-            margin-top: 2%;
-            font-size: xx-large;
-            font-weight: 700;
-        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Asterik Prints</h1>
-        <button id="btn">Click Here</button>
+        <h1> Calculate Discount Price </h1>
+        <p>Original Price is : <span id="originalPrice">540</span></p>
+        <p>Discounted Price is : <span id="discountedPrice">450</span></p>
+        <button id="btn">Discounted Rate</button>
         <p id="para"></p>
     </div>
-
-
+    
 
     <script>
-
+        let originalPrice = Number(document.getElementById('originalPrice').innerText);
+        let discountedPrice = Number(document.getElementById('discountedPrice').innerText);
         let btn = document.getElementById('btn');
         let para = document.getElementById('para');
+
         btn.addEventListener('click' , ()=>{
-            for(let i = 6 ; i >= 0 ; i--){
-                para.innerHTML += "*" .repeat(i) + `<br/>`;
-            }
+            para.innerText = "Discount Rate is " + ((100/originalPrice) * (originalPrice-discountedPrice)).toFixed(2) + "%";
         })
 
+
     </script>
-    
 </body>
 </html>

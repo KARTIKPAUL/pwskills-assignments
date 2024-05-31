@@ -1,27 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(236, 204, 204);
+.child{
+    display: flex;
+    column-gap: 50px;
 }
-h1{
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    text-align: center;
+.child button{
+    border: 1px solid #adff2f;
+    padding: 20px 50px;
+    font-size: xx-large;
+    background-color: #4343ed;
+    border-radius: 50%;
+}
+.child button:hover{
+    background-color: hsl(313, 93%, 51%);
+    cursor: pointer;
+}
+.haed{
     font-size: 50px;
-    color: blue;
     font-weight: bolder;
 }
-.container{
+.parent{
+    background-color: #58f1f1;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: fit-content;
+    padding: 40px;
+}
+.mainParent{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
 }
-.th{
-    padding: 20px 40px;
-    background-color: green;
-    cursor: pointer;
-    font-size: 35px;
-    font-weight: bolder;
-    width: 5vw;
+hr{
+    background-color: #000000;
 }

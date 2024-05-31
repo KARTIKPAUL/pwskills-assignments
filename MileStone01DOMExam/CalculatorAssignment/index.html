@@ -3,54 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>CalCulator</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <h1>This is Calculator Made By Me</h1>
-
-        <div class="container">
-
-        <table border="" cellpadding="10px">
-
-            <!-- Table Hrading -->
-            <thead>
-                <tr>
-                    <th class="th">+</th>
-                    <th class="th">-</th>
-                    <th class="th">*</th>
-                    <th class="th">/</th>
-                </tr>
-            </thead>
-
-            <!-- Table Body  -->
-
-            <tbody>
-                <tr>
-                    <td class="th th1" id="one">1</td>
-                    <td class="th th1" id="two">2</td>
-                    <td class="th th1" id="three">3</td>
-                </tr>
-                <tr>
-                    <td class="th th2" id="four">4</td>
-                    <td class="th th2" id="five">5</td>
-                    <td class="th th2" id="six">6</td>
-                </tr>
-                <tr>
-                    <td class="th th3" id="seven">7</td>
-                    <td class="th th3" id="eight">8</td>
-                    <td class="th th3" id="nine">9</td>
-                </tr>
-                <tr>
-                    <td class="th th4" id="dot">.</td>
-                    <td class="th th4" id="zero">0</td>
-                    <td class="th th4" id="equalTo">=</td>
-                </tr>
-            </tbody>
-        </table>
-
+    
+    <div class="mainParent">
+        
+        <div class="parent">
+            <div> 
+                <span id="num1" class="haed">  </span>
+                <span id="operator" class="haed">  </span>
+                <span id="num2" class="haed">  </span>
+                <h1 id="result">Result:</h1>
+            </div>
+            <hr/>
+            <div class="child">
+                <button class="num">0</button>
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="op">+</button>
+            </div>
+            <hr/>
+            <div class="child">
+                <button class="num">3</button>
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="op">-</button>
+            </div>
+            <hr/>
+            <div class="child">
+                <button class="num">6</button>
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="op">*</button>
+            </div>
+            <hr/>
+            <div class="child">
+                <button class="num">9</h1>
+                <button id="btn">=</button>
+                <button id="ac">C</button>
+                <button class="op">/</button>
+            </div>
         </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>

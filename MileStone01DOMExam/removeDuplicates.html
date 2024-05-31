@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Dulicates</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container h1{
+            font-size: 40px;
+            color: #0059ff;
+            font-weight: 400;
+        }
+        .container p{
+            font-size: 30px;
+            color: #008000;
+            font-weight: 400;
+        }
+        span{
+            color: hsl(11, 100%, 50%);
+        }
+        #btn{
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: xx-large;
+            border-radius: 10px;
+            padding: 7px 14px;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background-color:#7fffd4;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Remove Duplicates</h1>
+
+        <p>Actual Cart is : [ <span id="actual">[]</span> ]</p>
+        <button id="btn">Final Cart is</button>
+        <p>Final Cart is : [ <span id="final"></span> ] </p>
+
+    </div>
+
+
+    <script>
+
+        let actual = document.getElementById('actual');
+        let final = document.getElementById('final');
+        let btn = document.getElementById('btn')
+
+        let item = ["Bag","Shirt","Watch","Bag","Shirt"];
+        actual.innerText = item;
+
+        let set = new Set();
+        let ans = [];
+
+        item.map(el => {
+            if(!set.has(el)) ans.push(el);
+            set.add(el);
+        })
+        btn.addEventListener('click' , ()=>{
+            final.innerText = ans;
+        })
+
+    </script>
+</body>
+</html>

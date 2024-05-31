@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asterik Prints</title>
+    <title>Creating Random Number</title>
     <style>
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #faebd7;
+            background-color:#e7c163;
         }
         .container{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 5%;
+            gap: 10px;
         }
         .container h1{
-            font-size: 40px;
             color: #0000ff;
-            font-weight: 900;
+            font-size: 40px;
+            font-weight: 700;
         }
         #btn{
-            margin-top: 3%;
             background-color: #000000;
             color: #ffffff;
             font-weight: 700;
@@ -37,34 +36,33 @@
             background-color:#7fffd4;
             color: #000000;
         }
-        #para{
-            margin-top: 2%;
+        P{
+            color: #061302e0;
             font-size: xx-large;
-            font-weight: 700;
+            font-weight: 500;
+        }
+        #para{
+            font-weight: 900;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <h1>Asterik Prints</h1>
-        <button id="btn">Click Here</button>
-        <p id="para"></p>
+        <h1>Creating Random Number</h1>
+        <button id="btn">Random Number</button>
+        <p>Random Number Between 1 to 100 : <span id="para">78</span></p>
     </div>
-
-
 
     <script>
 
         let btn = document.getElementById('btn');
         let para = document.getElementById('para');
+
         btn.addEventListener('click' , ()=>{
-            for(let i = 6 ; i >= 0 ; i--){
-                para.innerHTML += "*" .repeat(i) + `<br/>`;
-            }
+            let randomNumber = Math.floor(Math.random() * 100) + 1;
+            para.innerHTML = randomNumber;
         })
 
     </script>
-    
 </body>
 </html>
