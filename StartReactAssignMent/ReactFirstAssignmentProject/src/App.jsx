@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Person from './Components/Person'
 import './App.css'
 import Button from './Components/Button'
@@ -6,8 +5,7 @@ import Header from './Components/Header'
 import List from './Components/List'
 
 function App() {
-  const[color,setColor] = useState('white')
-
+  console.log("hello");
   const btnClick = () =>{
     const newColor = "green";
     document.body.style.backgroundColor = newColor;
